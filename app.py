@@ -9,7 +9,7 @@ def load_model():
     return model
 
 # set the title 
-st.title("Fake Job Classification")
+st.title("Fake Job Classifications")
 
 # Load the dataset
 df = pd.read_csv("fake_job_postings (1).csv")
